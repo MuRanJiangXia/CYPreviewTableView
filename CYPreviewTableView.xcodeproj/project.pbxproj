@@ -12,6 +12,8 @@
 		87371CE621760BD600255ED1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 87371CE421760BD600255ED1 /* Main.storyboard */; };
 		87371CE821760BD800255ED1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 87371CE721760BD800255ED1 /* Assets.xcassets */; };
 		87371CEB21760BD800255ED1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 87371CE921760BD800255ED1 /* LaunchScreen.storyboard */; };
+		87371CF321760C1200255ED1 /* CYPreviewTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87371CF221760C1200255ED1 /* CYPreviewTableView.swift */; };
+		8783AF812176D5A200E3D7AB /* CYTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8783AF802176D5A200E3D7AB /* CYTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		87371CE721760BD800255ED1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		87371CEA21760BD800255ED1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		87371CEC21760BD800255ED1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		87371CF221760C1200255ED1 /* CYPreviewTableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CYPreviewTableView.swift; sourceTree = "<group>"; };
+		8783AF802176D5A200E3D7AB /* CYTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CYTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +60,8 @@
 			children = (
 				87371CE021760BD600255ED1 /* AppDelegate.swift */,
 				87371CE221760BD600255ED1 /* ViewController.swift */,
+				87371CF221760C1200255ED1 /* CYPreviewTableView.swift */,
+				8783AF802176D5A200E3D7AB /* CYTableViewCell.swift */,
 				87371CE421760BD600255ED1 /* Main.storyboard */,
 				87371CE721760BD800255ED1 /* Assets.xcassets */,
 				87371CE921760BD800255ED1 /* LaunchScreen.storyboard */,
@@ -135,8 +141,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				87371CF321760C1200255ED1 /* CYPreviewTableView.swift in Sources */,
 				87371CE321760BD600255ED1 /* ViewController.swift in Sources */,
 				87371CE121760BD600255ED1 /* AppDelegate.swift in Sources */,
+				8783AF812176D5A200E3D7AB /* CYTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
